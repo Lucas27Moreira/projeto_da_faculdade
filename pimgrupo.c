@@ -560,7 +560,7 @@ void controleProduto(){
                                         system ("cls");
                                         printf (" Codigo\t|Nome\t\t|Preco de compra\t|Preco de venda\t|Tamanho\n ");
                                     for (c=0;c<x;c++){
-                                        if (pro[c].pcompra > 0)//Exibe os remedios ordenados somente os cadastrados
+                                        if (pro[c].pcompra > 0)//Exibe os produtos ordenados somente os cadastrados
                                             printf ("%d\t|%s\t| R$ - %.2f\t\t| R$ - %.2f\t|%s\n ", pro[c].codigo,pro[c].descricao,pro[c].pcompra,pro[c].pvenda,pro[c].tamanho);
 }
                                             printf ("\n\n\n");
